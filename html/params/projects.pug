@@ -2,32 +2,72 @@ block projectsInfo
   -
     var projects = [
       {
-        name: 'Implementation of CHEx86, A Capabilities-Based Architecture for Securing Legacy Binaries agianst Memory Safety Exploits in GEM5',
+        name: 'Abakus Performance Modeling',
         img: '',
         link: '',
-        source: '',
+        source: 'https://github.com/LingxiWu/Abakus.git',
         platform: [],
-        description: '',
-        lib: ['C', 'C++', 'Python'],
-        tags: ['GEM5', 'Microarchitecture', 'Simulator']
+        description: 'A trace-drive performance simulation based on MQSim for Abakus, an in-storage-processing framework to accelerate an important bioinformatics kernel called k-mer counting',
+        lib: ['Python'],
+        tags: ['MQSim', 'SSD', 'Bioinformatics', 'Simulator']
       },
       {
-        name: 'Implementation of a Speculation-Driven Dynamic Binary Optimizer in GEM5',
+        name: 'Membrane Performance Modeling',
         img: '',
         link: '',
-        source: '',
+        source: 'https://github.com/LingxiWu/Membrane_Perf.git',
         platform: [],
-        description: '',
-        lib: ['C', 'C++', 'Python'],
-        tags: ['GEM5', 'Microarchitecture', 'Simulator']
+        description: 'A trace-driven performance modeling based on Ramulator for Membrane, a processing-in-memory solution for OLAP. Trace gen is in SSB_Trace dir and written in Python',
+        lib: ['Python', 'C++'],
+        tags: ['Processing-in-memory', 'Ramulator', 'OLAP', 'SSB', 'Simulator']
       },
       {
-        name: 'Implementation of a Toy Compiler in Java',
+        name: 'HW Trojan Neuromorphic SCA',
         img: '',
         link: '',
-        source: '',
+        source: 'https://github.com/LingxiWu/nn_security.git',
         platform: [],
-        description: 'Compiler Course',
+        description: 'Simulated hardware Trojan assited power side-channel weight stealing attack against eNVM-based neuromorphic devices',
+        lib: ['Python', 'C'],
+        tags: ['Neuromorphic', 'HW security', 'Side-channel attack', 'Neurosim']
+      },
+      {
+        name: 'DRAM-CAM Trace Generator',
+        img: '',
+        link: '',
+        source: 'https://github.com/LingxiWu/DRAM_CAM_Perf.git',
+        platform: [],
+        description: 'A trace generator for DRAM-CAM performance modeling. DRAM-CAM is a processing-in-memory architecture to accelerate exact pattern matching kernels. Needs DRAMSim2.',
+        lib: ['Python'],
+        tags: ['Processing-in-memory', 'parallel kernels', 'Simulator']
+      },
+      {
+        name: 'NDP DBG Performance Modeling',
+        img: '',
+        link: '',
+        source: 'https://github.com/LingxiWu/DBGAcc.git',
+        platform: [],
+        description: 'Performance modeling based on Snipersim for our near-data-processing-based De Bruijn Graph processing framework.',
+        lib: ['Python', 'C++'],
+        tags: ['Processing-in-memory', 'Snipersim', 'Bioinformatics', 'DBG', 'Performance Modeling']
+      },
+      {
+        name: 'Sieve Performance Modeling',
+        img: '',
+        link: '',
+        source: 'https://github.com/LingxiWu/sieve_sim.git',
+        platform: [],
+        description: 'Performance modeling based on DRAMSim2 for our PIM-based k-mer matching accelerator',
+        lib: ['Python', 'C++'],
+        tags: ['Processing-in-memory', 'DRAMSim2', 'Bioinformatics', 'Performance Modeling']
+      },
+      {
+        name: 'Simple compiler in Java',
+        img: '',
+        link: '',
+        source: 'https://github.com/LingxiWu/MeggyJr.git',
+        platform: [],
+        description: 'A compiler for MeggyJr Java. UVA Compiler Course. Instructor Mary Lou Soffa.',
         lib: ['Java', 'JFlex', 'CUP'],
         tags: ['Compiler']
       },
